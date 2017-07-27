@@ -27,6 +27,7 @@ namespace IIS.VUZ
 
     // *** End programmer edit section *** (Student CustomAttributes)
     [AutoAltered()]
+    [ICSSoft.STORMNET.NotStored(false)]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("StudentE", new string[] {
             "GradeBookNumber as \'Grade book number\'",

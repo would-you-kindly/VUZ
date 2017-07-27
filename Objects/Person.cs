@@ -27,6 +27,7 @@ namespace IIS.VUZ
 
     // *** End programmer edit section *** (Person CustomAttributes)
     [AutoAltered()]
+    [ICSSoft.STORMNET.NotStored()]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("PersonE", new string[] {
             "Fullname as \'Fullname\'",

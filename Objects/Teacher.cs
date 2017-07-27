@@ -27,6 +27,7 @@ namespace IIS.VUZ
 
     // *** End programmer edit section *** (Teacher CustomAttributes)
     [AutoAltered()]
+    [ICSSoft.STORMNET.NotStored(false)]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("TeacherE", new string[] {
             "Title as \'Title\'",

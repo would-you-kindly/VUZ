@@ -50,6 +50,43 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="System">
+      <HintPath>System</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>System.Data</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>System.Drawing</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>System.Linq</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>System.Web</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <HintPath>System.Web.Extensions</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design">
+      <HintPath>System.Web.Extensions.Design</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <HintPath>System.Web.Services</HintPath>
+    </Reference>
+    <Reference Include="System.XML">
+      <HintPath>System.XML</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>System.Xml.Linq</HintPath>
+    </Reference>
+    <Reference Include="System.Workflow.Runtime">
+      <HintPath>System.Workflow.Runtime</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Objects\VUZ(Objects).csproj">
+      <Project>{ca992112-bd67-4be6-b6f0-3af8b0799c7d}</Project>
+      <Name>VUZ(Objects)</Name>
+    </ProjectReference>
     <Reference Include="AntiXssLibrary">
       <HintPath>..\packages\AntiXSS.4.3.0\lib\net40\AntiXssLibrary.dll</HintPath>
     </Reference>
@@ -264,43 +301,6 @@
     <Reference Include="SmartScroller">
       <HintPath>..\packages\NewPlatform.Flexberry.AspNet.2.1.0\lib\net40\SmartScroller.dll</HintPath>
     </Reference>
-    <Reference Include="System">
-      <HintPath>System</HintPath>
-    </Reference>
-    <Reference Include="System.Data">
-      <HintPath>System.Data</HintPath>
-    </Reference>
-    <Reference Include="System.Drawing">
-      <HintPath>System.Drawing</HintPath>
-    </Reference>
-    <Reference Include="System.Linq">
-      <HintPath>System.Linq</HintPath>
-    </Reference>
-    <Reference Include="System.Web">
-      <HintPath>System.Web</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Extensions">
-      <HintPath>System.Web.Extensions</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Extensions.Design">
-      <HintPath>System.Web.Extensions.Design</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Services">
-      <HintPath>System.Web.Services</HintPath>
-    </Reference>
-    <Reference Include="System.XML">
-      <HintPath>System.XML</HintPath>
-    </Reference>
-    <Reference Include="System.Xml.Linq">
-      <HintPath>System.Xml.Linq</HintPath>
-    </Reference>
-    <Reference Include="System.Workflow.Runtime">
-      <HintPath>System.Workflow.Runtime</HintPath>
-    </Reference>
-    <ProjectReference Include="..\Objects\VUZ%28Objects%29.csproj">
-      <Project>{ca992112-bd67-4be6-b6f0-3af8b0799c7d}</Project>
-      <Name>VUZ%28Objects%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="forms\Teacher\TeacherL.aspx" />
@@ -973,24 +973,15 @@
     <Content Include="App_Themes\Smart\_VariablesBasic.less" />
     <None Include="packages.config" />
     <Compile Include="forms\BaseEditForm.cs">
-      <DependentUpon>
-      </DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="forms\BaseListForm.cs">
-      <DependentUpon>
-      </DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="forms\LookUpForm.cs">
-      <DependentUpon>
-      </DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FormUtils.cs">
-      <DependentUpon>
-      </DependentUpon>
-    </Compile>
+    <Compile Include="FormUtils.cs" />
     <Content Include="Web.config" />
     <Content Include="Site1.Master" />
     <Compile Include="Site1.Master.cs">
