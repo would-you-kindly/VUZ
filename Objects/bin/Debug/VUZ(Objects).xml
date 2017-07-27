@@ -1,0 +1,308 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VUZ(Objects)</name>
+    </assembly>
+    <members>
+        <member name="T:IIS.VUZ.Theme">
+            <summary>
+            Theme.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Theme.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Theme.Description">
+            <summary>
+            Description.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Theme.BeginDate">
+            <summary>
+            BeginDate.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Theme.EndDate">
+            <summary>
+            EndDate.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Theme.Subject">
+            <summary>
+            Theme.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Theme.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Theme.Views.ThemeE">
+            <summary>
+            "ThemeE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Theme.Views.ThemeL">
+            <summary>
+            "ThemeL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Faculty">
+            <summary>
+            Faculty.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Faculty.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Faculty.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Faculty.Views.FacultyE">
+            <summary>
+            "FacultyE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Faculty.Views.FacultyL">
+            <summary>
+            "FacultyL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Mark">
+            <summary>
+            Mark.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Mark.Value">
+            <summary>
+            Value.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Mark.Student">
+            <summary>
+            Mark.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Mark.Subject">
+            <summary>
+            Mark.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Mark.Teacher">
+            <summary>
+            Mark.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Mark.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Mark.Views.MarkE">
+            <summary>
+            "MarkE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Mark.Views.MarkL">
+            <summary>
+            "MarkL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.ControlForm">
+            <summary>
+            Control form.
+            </summary>
+        </member>
+        <member name="F:IIS.VUZ.ControlForm.Exam">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.VUZ.ControlForm.Credit">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.TitleType">
+            <summary>
+            Title type.
+            </summary>
+        </member>
+        <member name="F:IIS.VUZ.TitleType.СтаршийПреподаватель">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.VUZ.TitleType.Доцент">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:IIS.VUZ.TitleType.Профессор">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Person">
+            <summary>
+            Person.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Person.Fullname">
+            <summary>
+            Fullname.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Person.BirthDate">
+            <summary>
+            BirthDate.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Person.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Person.Views.PersonE">
+            <summary>
+            "PersonE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Person.Views.PersonL">
+            <summary>
+            "PersonL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Teacher">
+            <summary>
+            Teacher.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Teacher.Title">
+            <summary>
+            Title.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Teacher.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Teacher.Views.TeacherE">
+            <summary>
+            "TeacherE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Teacher.Views.TeacherL">
+            <summary>
+            "TeacherL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Group">
+            <summary>
+            Group.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Group.Number">
+            <summary>
+            Number.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Group.Faculty">
+            <summary>
+            Group.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Group.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Group.Views.GroupE">
+            <summary>
+            "GroupE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Group.Views.GroupL">
+            <summary>
+            "GroupL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Student">
+            <summary>
+            Student.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Student.GradeBookNumber">
+            <summary>
+            GradeBookNumber.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Student.Group">
+            <summary>
+            Student.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Student.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Student.Views.StudentE">
+            <summary>
+            "StudentE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Student.Views.StudentL">
+            <summary>
+            "StudentL" view.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Subject">
+            <summary>
+            Subject.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Subject.Name">
+            <summary>
+            Name.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Subject.Control">
+            <summary>
+            Control.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Subject.BeginDate">
+            <summary>
+            BeginDate.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Subject.EndDate">
+            <summary>
+            EndDate.
+            </summary>
+        </member>
+        <member name="T:IIS.VUZ.Subject.Views">
+            <summary>
+            Class views container.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Subject.Views.SubjectE">
+            <summary>
+            "SubjectE" view.
+            </summary>
+        </member>
+        <member name="P:IIS.VUZ.Subject.Views.SubjectL">
+            <summary>
+            "SubjectL" view.
+            </summary>
+        </member>
+    </members>
+</doc>
